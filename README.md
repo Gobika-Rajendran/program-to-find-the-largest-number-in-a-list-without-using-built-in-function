@@ -1,1 +1,14 @@
-# program-to-find-the-largest-number-in-a-list-without-using-built-in-function
+numbers = [3,8,1,7,2,9,5,4]
+big = numbers[0]
+position = 0
+for i in range(len(numbers)):
+    if(numbers[i]>big):
+        big=numbers[i]
+        position = i
+        print("the largest element is",big,"which is found at position",position)
+ 
+
+OUTPUT:
+
+the largest element is 8 which is found at position 1
+the largest element is 9 which is found at position 5
